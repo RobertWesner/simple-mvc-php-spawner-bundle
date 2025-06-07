@@ -1,5 +1,6 @@
 {
     "name": "robertwesner/simple-mvc-php-spawner-bundle",
+    "description": "Run background tasks that do not produce synchronous output or require monitoring.",
     "type": "library",
     "license": "MIT",
     "autoload": {
