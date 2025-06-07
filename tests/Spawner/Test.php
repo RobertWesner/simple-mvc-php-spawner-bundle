@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace RobertWesner\SimpleMvcPhpSpawnerBundle\Tests\Spawner;
 
+use PHPUnit\Framework\Attributes\CoversClass;
 use RobertWesner\SimpleMvcPhpSpawnerBundle\Spawner\Spawner;
 use RobertWesner\SimpleMvcPhpSpawnerBundle\Tests\BaseTestCase;
 use RobertWesner\SimpleMvcPhpSpawnerBundle\Tests\Spawner\Fixtures\EchoSpawn;
 use RobertWesner\SimpleMvcPhpSpawnerBundle\Tests\Spawner\Fixtures\EchoSpawnConfiguration;
 
+#[CoversClass(Spawner::class)]
 class Test extends BaseTestCase
 {
     public function test(): void
