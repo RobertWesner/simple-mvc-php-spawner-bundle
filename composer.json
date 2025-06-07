@@ -1,0 +1,29 @@
+{
+    "name": "robertwesner/simple-mvc-php-spawner-bundle",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RobertWesner\\SimpleMvcPhpSpawnerBundle\\": "src/",
+            "RobertWesner\\SimpleMvcPhpSpawnerBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RobertWesner",
+            "email": "robert@wesner.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.4",
+        "robertwesner/simple-mvc-php": "^0.10.1",
+        "robertwesner/dependency-injection": "^v1.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10.2",
+        "phpunit/phpunit": "^11.3.1"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit -c phpunit.xml"
+    }
+}
