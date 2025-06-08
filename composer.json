@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=8.4",
-        "robertwesner/simple-mvc-php": "^0.10.1",
+        "robertwesner/simple-mvc-php": "^0.10.1 || ^0.11.0",
         "robertwesner/dependency-injection": "^v1.3.0"
     },
     "require-dev": {
